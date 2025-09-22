@@ -1,0 +1,2 @@
+From OCM POI 
+e.g.: https://api.openchargemap.io/v3/poi?key=example&countrycode=DE

@@ -1,0 +1,109 @@
+# =============================================================================
+# Electric Vehicle Charging Station Allocation Project (EVCSAP) .gitignore
+# =============================================================================
+
+# Exclude archived and tutorial folders
+archived_repositories/
+PyomoTutorials/
+
+# Exclude sensitive model implementation and test files
+journal_ver_2025_data_codes/csap_packages_sp/
+journal_ver_2025_data_codes/Execution/
+
+# Allow data folders but exclude specific sensitive files
+!journal_ver_2025_data_codes/Data/
+journal_ver_2025_data_codes/**/*.py
+!journal_ver_2025_data_codes/**/*data*.py
+!journal_ver_2025_data_codes/**/*process*.py
+
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+py_env_setup/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Research and thesis related
+Thesis_latex/*.aux
+Thesis_latex/*.log
+Thesis_latex/*.out
+Thesis_latex/*.toc
+Thesis_latex/*.bbl
+Thesis_latex/*.blg
+Thesis_latex/*.synctex.gz
+draft_comparison/
+
+# Temporary and log files
+*.tmp
+*.log
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation builds
+docs/_build/
+site/
+
+# Data files that might be too large or sensitive
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Environment and configuration files
+.env
+.env.local
+.env.*.local
+config.ini
+settings.json
+
+# Results and output files
+results/
+output/
+*.results
+*.sol

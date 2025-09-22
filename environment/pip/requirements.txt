@@ -1,0 +1,81 @@
+# Requirements for EVCSAP Project
+# Electric Vehicle Charging Station Allocation Problem (SP-EVCSAP)
+#
+# Installation:
+#   pip install -r requirements.txt
+#
+# For development environment:
+#   pip install -r requirements-dev.txt
+#
+# Note: This file contains only pure pip packages.
+# For a complete conda environment, use conda/environment.yml
+
+# Core scientific computing
+numpy>=1.20.0,<2.0.0
+pandas>=1.3.0,<2.0.0
+scipy>=1.7.0,<2.0.0
+numexpr>=2.7.0
+bottleneck>=1.3.0
+
+# Optimization and mathematical programming
+pyomo>=6.0.0
+ipopt>=3.14.0
+cyipopt>=1.0.0
+networkx>=2.6.0
+sympy>=1.9.0
+
+# Geospatial analysis
+geopandas>=0.11.0
+fiona>=1.8.0
+shapely>=1.8.0
+folium>=0.13.0
+geopy>=2.2.0
+geographiclib>=1.52
+mapclassify>=2.4.0
+
+# Data visualization
+matplotlib>=3.5.0
+plotly>=5.0.0
+seaborn>=0.11.0
+kaleido>=0.2.1
+
+# Jupyter ecosystem
+jupyter>=1.0.0
+notebook>=6.4.0
+ipykernel>=6.0.0
+ipywidgets>=7.6.0
+jupyterlab>=3.0.0
+jupyterlab-widgets>=1.0.0
+
+# Data handling and I/O
+openpyxl>=3.0.0
+xlrd>=2.0.0
+h5py>=3.0.0
+tables>=3.6.0
+
+# Web frameworks
+flask>=1.1.0
+flask-cors>=3.0.0
+
+# Utilities
+click>=7.0.0
+tqdm>=4.60.0
+joblib>=1.0.0
+cloudpickle>=2.0.0
+pint>=0.17.0
+
+# Security
+cryptography>=3.0.0
+argon2-cffi>=21.0.0
+
+# System utilities
+psutil>=5.8.0
+packaging>=21.0.0
+
+# Advanced packages
+mpi-sppy>=0.11.0
+idaes-pse>=2.0.0
+
+# Commercial solvers (license required)
+# cplex>=22.1.0  # Uncomment if CPLEX license available
+# gurobipy       # Uncomment if Gurobi license available
